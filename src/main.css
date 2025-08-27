@@ -1,0 +1,124 @@
+/* main.css - All custom styles for the app */
+
+body {
+  background-color: #f9fafb;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #213547;
+  margin: 0;
+}
+
+.header {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2em;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card.gold {
+  background: linear-gradient(135deg, #ffe066 0%, #ffd700 100%);
+  color: #b8860b;
+}
+.card.silver {
+  background: linear-gradient(135deg, #e0e0e0 0%, #c0c0c0 100%);
+  color: #333;
+}
+.card.platinum {
+  background: linear-gradient(135deg, #e5e4e2 0%, #bfc9ca 100%);
+  color: #333;
+}
+.card.palladium {
+  background: linear-gradient(135deg, #ced0dd 0%, #90caf9 100%);
+  color: #1e3a8a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+  color: #213547;
+}
+
+.text-gray {
+  color: #888;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-green {
+  color: #16a34a;
+}
+
+.text-red {
+  color: #dc2626;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.rounded-xl {
+  border-radius: 1rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+/* Add more as needed for your app's layout */
