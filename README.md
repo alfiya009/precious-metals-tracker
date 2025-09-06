@@ -73,8 +73,7 @@ my-app/
 ## Environment Variables
 No environment variables are required for this project.
 
-## License
-Simplify Money 
+
 
 ---
 
